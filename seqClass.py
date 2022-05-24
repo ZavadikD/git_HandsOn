@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import sys, re
 from argparse import ArgumentParser
 
 parser = ArgumentParser(description = 'Classify a sequence as DNA or RNA')
