@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+print("Hello, User!")
 import sys, re
 from argparse import ArgumentParser
 #provides parser for the input
