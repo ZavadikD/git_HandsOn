@@ -14,7 +14,7 @@ args = parser.parse_args()
 args.seq = args.seq.upper()
 
 #identifies nucleic acid type
-if re.search('^[ACGTU]+$', args.seq):
+if re.search('^[ACGTURYMKSWHBVDN]+$', args.seq):
     if re.search('T', args.seq):
         print ('The sequence is DNA')
     elif re.search('U', args.seq):
