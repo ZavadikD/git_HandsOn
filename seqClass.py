@@ -28,4 +28,4 @@ if args.motif:
     if re.search(args.motif, args.seq):
         print("FOUND")
     else:
-        print("NOT FOUND motif branch")
+        print("NOT FOUND task 14")
